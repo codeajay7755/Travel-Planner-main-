@@ -1,0 +1,83 @@
+/* styles.css */
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+    nav.navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav.navbar .container-fluid {
+      padding: 10px;
+    }
+    
+    nav.navbar h3 {
+      margin-bottom: 10px;
+    }
+    
+    nav.navbar .collapse.navbar-collapse {
+      margin-top: 10px;
+    }
+    
+    nav.navbar .form-control {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    nav.navbar .btn {
+      width: 100%;
+    }
+    
+    nav.navbar .navbar-collapse {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    nav.navbar .btn {
+      width: 100%;
+      font-size: 14px; /* Adjust the font size as needed */
+      padding: 5px;  /*Adjust the padding as needed */
+    }
+  }
+  
+  /* Tablet and Desktop Styles */
+  @media (min-width: 768px) {
+    nav.navbar {
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+    
+    nav.navbar .container-fluid {
+      display: flex;
+      align-items: center;
+    }
+    
+    nav.navbar h3 {
+      margin-right: 20px;
+    }
+    
+    nav.navbar .collapse.navbar-collapse {
+      margin-top: 0;
+    }
+    
+    nav.navbar .form-control {
+      width: 300px;
+      margin-right: 10px;
+    }
+    
+    nav.navbar .btn {
+      width: auto;
+    }
+    
+    nav.navbar .navbar-collapse {
+      display: flex;
+      align-items: center;
+    }
+    
+    nav.navbar .navbar-nav {
+      margin-bottom: 0;
+    }
+  }
+  
